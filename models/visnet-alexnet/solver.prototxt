@@ -1,0 +1,16 @@
+test_iter: 10530
+test_interval: 7121
+base_lr: 0.01
+display: 100
+max_iter: 213630
+lr_policy: "step"
+gamma: 0.10000000149
+momentum: 0.899999976158
+weight_decay: 0
+stepsize: 35605
+snapshot: 7121
+snapshot_prefix: "snapshots/visnet-alexnet-s2s/"
+solver_mode: GPU
+test_compute_loss: true
+net: "models/visnet-alexnet/train.prototxt"
+average_loss: 100
