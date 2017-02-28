@@ -20,7 +20,7 @@ In order to train you need a set of triplets <q,p,n>. For compatibility with Caf
 
 If you wish to train Visnet on [Street2Shop](http://tamaraberg.com/street2shop/) dataset, you need to:
 
-1) Download Street2Shop dataset (This comtains only the image URLs)
+1) Download the [Street2Shop](http://tamaraberg.com/street2shop/) dataset (This contains only the image URLs)
 
 2) Download Street2Shop images (Have a look at scripts/image_downloader.py)
 
