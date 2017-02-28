@@ -12,7 +12,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets//tb/tb_3v_100_200_3vr1_onlycrop_train_n.txt"
+    source: "<path to train n file>"
     batch_size: 130
   }
 }
@@ -29,7 +29,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets/tb/tb_3v_100_200_3vr1_onlycrop_val_n.txt"
+    source: "<path to test n file>"
     batch_size: 100
   }
 }
@@ -68,7 +68,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets//tb/tb_3v_100_200_3vr1_onlycrop_train_q.txt"
+    source: "<path to train q file>"
     batch_size: 130
   }
 }
@@ -85,7 +85,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets/tb/tb_3v_100_200_3vr1_onlycrop_val_q.txt"
+    source: "<path to test q file>"
     batch_size: 100
   }
 }
@@ -124,7 +124,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets//tb/tb_3v_100_200_3vr1_onlycrop_train_p.txt"
+    source: "<path to train p file>"
     batch_size: 130
   }
 }
@@ -141,7 +141,7 @@ layer {
     crop_size: 227
   }
   image_data_param {
-    source: "/data/triplets/tb/tb_3v_100_200_3vr1_onlycrop_val_p.txt"
+    source: "<path to test p file>"
     batch_size: 100
   }
 }
