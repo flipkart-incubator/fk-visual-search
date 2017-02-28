@@ -19,11 +19,17 @@ VisNet is a Convolutional Neural Network (CNN) trained using triplet based deep 
 In order to train you need a set of triplets <q,p,n>. For compatibility with Caffe's ImageData layer, you need 3 sets of triplet files (one each for q, p and n). The lines in those files should correspond to triplets, i.e. line#i in each file should correspond to the i'th triplet. 
 
 If you wish to train Visnet on [Street2Shop](http://tamaraberg.com/street2shop/) dataset, you need to:
+
 1) Download Street2Shop dataset (This comtains only the image URLs)
+
 2) Download Street2Shop images (Have a look at scripts/image_downloader.py)
+
 3) You can then format the data using scripts/create_structured_images.py and scripts/create_wtbi_crops.py
+
 4) Use scripts/sampler.py to sample the triplet files
+
 5) Change visnet/train.prototxt to include the location to your triplet files
+
 6) Run training using Caffe
 
 
