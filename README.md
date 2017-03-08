@@ -1,5 +1,5 @@
 # fk-visual-search
-This code allows you to train the Visnet model. Visnet, trained on Flipkart's proprietary internal dataset, powers Visual Recommendations at Flipkart. On the publically available dataset, [Street2Shop](http://tamaraberg.com/street2shop/), Visnet achieves state-of-the-art results.
+This code allows you to train the Visnet model. Visnet, trained on Flipkart's proprietary internal dataset, powers Visual Recommendations at Flipkart. On the publically available dataset, [Street2Shop](http://tamaraberg.com/street2shop/), Visnet achieves state-of-the-art results. [Here](https://arxiv.org/abs/1703.02344) is the link to the arXiv tech report.
 
 In this Repo, we have open-sourced the following:
 * Training prototxts of Visnet
