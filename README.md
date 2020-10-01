@@ -17,7 +17,7 @@ The visual development of hand-centered receptive fields in a neural network mod
 VisNet is a Convolutional Neural Network (CNN) trained using triplet based deep ranking paradigm. It contains a deep CNN modelled after the VGG-16 network, coupled with parallel shallow convolution layers in order to capture both high-level and low-level image details simultaneously.
 ![img](https://drive.google.com/uc?export=view&id=0B4toQpysgMLVd09nNEJEVWc4VmM)
 
-content://com.android.chrome.FileProvider/images/screenshot/16015201831931118090739.jpg
+
 
 
 
