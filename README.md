@@ -12,8 +12,14 @@ We soon plan to add other useful scripts, such as:
 * Our useful modifications over Caffe - the image augmentation layer, and triplet accuracy layer to aid the training of Visnet
 
 ## Visnet Architecture
+The visual development of hand-centered receptive fields in a neural network model of the primate visual system trained with experimentally recorded human gaze changes
+
 VisNet is a Convolutional Neural Network (CNN) trained using triplet based deep ranking paradigm. It contains a deep CNN modelled after the VGG-16 network, coupled with parallel shallow convolution layers in order to capture both high-level and low-level image details simultaneously.
 ![img](https://drive.google.com/uc?export=view&id=0B4toQpysgMLVd09nNEJEVWc4VmM)
+
+
+
+
 
 ## Training
 In order to train you need a set of triplets <q,p,n>. For compatibility with Caffe's ImageData layer, you need 3 sets of triplet files (one each for q, p and n). The lines in those files should correspond to triplets, i.e. line#i in each file should correspond to the i'th triplet. 
